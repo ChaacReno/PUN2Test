@@ -16,12 +16,14 @@ public class Net_RoomPlayerListHandler : MonoBehaviourPunCallbacks
     {
         var playerCount = PhotonNetwork.CurrentRoom.PlayerCount;
         var iconCount = IconLocation.childCount;
+        Debug.LogError($"playerCount: {playerCount} | iconCount: {iconCount}");
+
 
         var countToInstantiate = playerCount - iconCount;
 
         for (int i = 0; i < countToInstantiate; i++)
         {
-            Instantiate(Icon, IconLocation);
+            PhotonNetwork.Instantiate(Icon.name, IconLocation.position, IconLocation.rotation);
         }
     }
 }

@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c555904b-fec4-4c2e-baba-2b1dd7a7d89d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PUN2Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PUN2Test/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/DefaultLobby.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/DefaultLobby.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LobbyLister.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LobbyLister.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Net_RoomPlayerListHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Net_RoomPlayerListHandler.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +40,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "iconUILogic",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
