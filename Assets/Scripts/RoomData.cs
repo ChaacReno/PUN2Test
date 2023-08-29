@@ -5,7 +5,9 @@ using UnityEngine;
 
 public class RoomData : MonoBehaviourPun
 {
-    public RoomInfo RoomInfo
+    public int SceneId { get; set; } = 13; // TODO: Change for scene data
+
+    private RoomInfo RoomInfo
     {
         get => _roomInfo;
         set
@@ -19,6 +21,12 @@ public class RoomData : MonoBehaviourPun
     [SerializeField] private TMP_Text PlayerCount;
 
     private RoomInfo _roomInfo;
+
+    public void UpdateRoomInfo(int sceneId, RoomInfo roomInfo)
+    {
+        SceneId = sceneId;
+        _roomInfo = roomInfo;
+    }
 
     public void Print(string roomName, int count, int maxCount)
     {

@@ -17,7 +17,6 @@ public class ConnectionManager : MonoBehaviourPunCallbacks
         PhotonNetwork.ConnectUsingSettings();
     }
 
-    [Button("CreateOrJoin")]
     public void CreateOrJoin()
     {
         var roomOptions = new RoomOptions

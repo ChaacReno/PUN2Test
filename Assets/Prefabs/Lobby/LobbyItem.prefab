@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5019592838087557614}
   - component: {fileID: 4362096615205099599}
   - component: {fileID: 1842849548054670656}
+  - component: {fileID: 5941462486431224621}
   m_Layer: 5
   m_Name: LobbyItem
   m_TagString: Untagged
@@ -123,7 +124,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 5019592838087557614}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5941462486431224621}
+        m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
+        m_MethodName: LoadSceneFromData
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1842849548054670656}
+          m_ObjectArgumentAssemblyTypeName: RoomData, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1842849548054670656
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -137,7 +150,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RoomName: {fileID: 3494877954390382045}
-  PlayerQuantity: {fileID: 8093641466647847266}
+  PlayerCount: {fileID: 8093641466647847266}
+--- !u!114 &5941462486431224621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 201437282901964728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcaf986362b4159478fde78a66fd649c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1474247840362354325
 GameObject:
   m_ObjectHideFlags: 0
