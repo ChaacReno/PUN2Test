@@ -2,7 +2,7 @@ using Photon.Pun;
 using TMPro;
 using UnityEngine;
 
-public class LobbyItem : MonoBehaviour
+public class LobbyItem : MonoBehaviourPunCallbacks
 {
     [SerializeField] private TMP_Text nameLabel;
 
@@ -20,7 +20,11 @@ public class LobbyItem : MonoBehaviour
         {
             PhotonNetwork.LeaveRoom();
         }
+    }
 
+    public override void OnLeftRoom()
+    {
+        base.OnLeftRoom();
         PhotonNetwork.JoinRoom(nameLabel.text);
     }
 }
