@@ -11,6 +11,9 @@ scopes = {
 	"last_search.C960FFEA" = "h:"
 	"OpenInspectorPreview.C960FFEA" = "0"
 	"currentGroup.C960FFEA" = "scene"
+	"last_search.F4310368" = "h:"
+	"OpenInspectorPreview.F4310368" = "0"
+	"currentGroup.F4310368" = "scene"
 }
 providers = {
 	adb = {

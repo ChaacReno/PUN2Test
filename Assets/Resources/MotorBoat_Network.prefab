@@ -9384,7 +9384,7 @@ MonoBehaviour:
   ObservedComponentsFoldoutOpen: 1
   Group: 0
   prefixField: -1
-  Synchronization: 3
+  Synchronization: 1
   OwnershipTransfer: 0
   observableSearch: 2
   ObservedComponents:
@@ -9407,8 +9407,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   simulateWaterObjectsOnClient: 1
-  sendRate: 12
-  serializationRate: 12
+  sendRate: 6
+  serializationRate: 6
 --- !u!1001 &3633788001715767089
 PrefabInstance:
   m_ObjectHideFlags: 0
