@@ -33,6 +33,7 @@ public class LobbyLister : MonoBehaviourPunCallbacks
         if (!PhotonNetwork.IsConnected)
         {
             PhotonNetwork.ConnectUsingSettings();
+            FetchLobbies();
         }
         else
         {
