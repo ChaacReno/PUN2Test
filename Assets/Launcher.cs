@@ -22,6 +22,7 @@ public class Launcher : MonoBehaviourPunCallbacks
 
     public void LoadScene()
     {
+        PhotonNetwork.CurrentRoom.IsVisible = false;
         PhotonNetwork.LoadLevel(sceneToLoad);
     }
 }
