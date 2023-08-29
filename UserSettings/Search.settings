@@ -8,6 +8,9 @@ onBoardingDoNotAskAgain = true
 showPackageIndexes = false
 showStatusBar = false
 scopes = {
+	"last_search.C960FFEA" = "h:"
+	"OpenInspectorPreview.C960FFEA" = "0"
+	"currentGroup.C960FFEA" = "scene"
 }
 providers = {
 	adb = {
