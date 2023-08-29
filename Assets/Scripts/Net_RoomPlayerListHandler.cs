@@ -1,14 +1,19 @@
+using System.Collections;
 using Photon.Pun;
 using UnityEngine;
 
 public class Net_RoomPlayerListHandler : MonoBehaviourPunCallbacks
 {
+    [SerializeField] private GameObject lobbyListContainer;
+    [SerializeField] private GameObject playerListContainer;
     [SerializeField] private GameObject Icon;
     [SerializeField] private Transform IconLocation;
 
     public override void OnJoinedRoom()
     {
         base.OnJoinedRoom();
+        lobbyListContainer.SetActive(false);
+        playerListContainer.SetActive(true);
         PrintIcons();
     }
 
