@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c555904b-fec4-4c2e-baba-2b1dd7a7d89d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PUN2Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PUN2Test/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NetworkStartup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Launcher.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NetworkStartup.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Launcher.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/DefaultLobby.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/DefaultLobby.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MultiplayerTest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MultiplayerTest.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LobbyItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LobbyItem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-    </list>
+    <list default="true" id="c555904b-fec4-4c2e-baba-2b1dd7a7d89d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -105,7 +96,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693325425581</updated>
-      <workItem from="1693325430049" duration="9724000" />
+      <workItem from="1693325430049" duration="10118000" />
     </task>
     <servers />
   </component>
