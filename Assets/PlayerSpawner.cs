@@ -4,7 +4,8 @@ using UnityEngine;
 public class PlayerSpawner : MonoBehaviourPun
 {
     [SerializeField] private GameObject playerPrefab;
-    private Vector3 spawnPosition = Vector3.zero;
+    [SerializeField] private Vector3 spawnPosition;
+    [SerializeField] private float spawnRange;
 
     private void Start()
     {
@@ -15,7 +16,10 @@ public class PlayerSpawner : MonoBehaviourPun
     {
         if (PhotonNetwork.IsConnected && PhotonNetwork.InRoom && playerPrefab != null)
         {
-            PhotonNetwork.Instantiate(playerPrefab.name, spawnPosition, Quaternion.identity);
+            Vector3 randomOffset = new Vector3(Random.Range(-spawnRange, spawnRange), 0,
+                Random.Range(-spawnRange, spawnRange));
+            Vector3 finalSpawnPosition = spawnPosition + randomOffset;
+            PhotonNetwork.Instantiate(playerPrefab.name, finalSpawnPosition, Quaternion.identity);
         }
     }
 }
