@@ -2094,8 +2094,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 398da4fb7877ab04bba84df60ced4151, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lobbyListContainer: {fileID: 1502622914}
-  playerListContainer: {fileID: 504401206}
+  lobbyListContainer: {fileID: 1344619104}
+  playerListContainer: {fileID: 1733470990}
   lobbyItem: {fileID: 201437282901964728, guid: d11e2f57e27842a46ba6318642a2372f, type: 3}
 --- !u!4 &1064246585
 Transform:
