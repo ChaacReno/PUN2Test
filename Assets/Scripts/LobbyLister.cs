@@ -30,15 +30,8 @@ public class LobbyLister : MonoBehaviourPunCallbacks
 
     private void Start()
     {
-        if (!PhotonNetwork.IsConnected)
-        {
-            PhotonNetwork.ConnectUsingSettings();
-            FetchLobbies();
-        }
-        else
-        {
-            FetchLobbies();
-        }
+        PhotonNetwork.ConnectUsingSettings();
+        FetchLobbies();
     }
 
     public override void OnConnectedToMaster()
