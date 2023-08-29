@@ -16,6 +16,11 @@ public class LobbyItem : MonoBehaviour
 
     public void ConnectToRoom()
     {
+        if (PhotonNetwork.InRoom)
+        {
+            PhotonNetwork.LeaveRoom();
+        }
+
         PhotonNetwork.JoinRoom(nameLabel.text);
     }
 }

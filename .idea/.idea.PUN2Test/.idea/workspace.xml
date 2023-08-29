@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c555904b-fec4-4c2e-baba-2b1dd7a7d89d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PUN2Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PUN2Test/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LobbyLister.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LobbyLister.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LobbyItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LobbyItem.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +99,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693325425581</updated>
-      <workItem from="1693325430049" duration="7649000" />
+      <workItem from="1693325430049" duration="8136000" />
     </task>
     <servers />
   </component>
