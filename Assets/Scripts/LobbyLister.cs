@@ -14,6 +14,7 @@ public class LobbyLister : MonoBehaviourPunCallbacks
         public string LobbyName;
         public int CurrentPlayerCount;
         public int MaxPlayerCount;
+        public bool isDisplayed;
 
         public LobbyInfo(RoomInfo roomInfo)
         {
@@ -49,8 +50,10 @@ public class LobbyLister : MonoBehaviourPunCallbacks
     {
         foreach (var lobby in availableLobbies)
         {
+            if (lobby.isDisplayed) return;
             LobbyItem item = Instantiate(lobbyItem, lobbyListContainer.transform).GetComponent<LobbyItem>();
             item.SetLobbyData(lobby.LobbyName, lobby.CurrentPlayerCount, lobby.MaxPlayerCount);
+            lobby.isDisplayed = true;
         }
     }
 
