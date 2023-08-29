@@ -42,7 +42,6 @@ public class LobbyLister : MonoBehaviourPunCallbacks
 
     public void FetchLobbies()
     {
-        PhotonNetwork.JoinLobby();
         PrintLobbies();
     }
 
