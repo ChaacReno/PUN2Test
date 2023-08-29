@@ -24,13 +24,13 @@ public class Net_RoomPlayerListHandler : MonoBehaviourPunCallbacks
 
         var countToInstantiate = playerCount - iconCount;
 
-        if (countToInstantiate == 0)
-        {
-            InstantiateIcon();
-            return;
-        }
+        // if (countToInstantiate == 0)
+        // {
+        //     InstantiateIcon();
+        //     return;
+        // }
 
-        for (int i = 1; i < countToInstantiate; i++)
+        for (int i = 0; i < countToInstantiate; i++)
         {
             InstantiateIcon();
         }
