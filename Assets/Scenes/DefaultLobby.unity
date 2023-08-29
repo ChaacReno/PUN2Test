@@ -2640,6 +2640,7 @@ GameObject:
   - component: {fileID: 1855776715}
   - component: {fileID: 1855776714}
   - component: {fileID: 1855776718}
+  - component: {fileID: 1855776719}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -2747,6 +2748,28 @@ MonoBehaviour:
   playerListContainer: {fileID: 1733470990}
   Icon: {fileID: 5492178424074895339, guid: d2d958a0563d40a4987bc28f6d1167c4, type: 3}
   IconLocation: {fileID: 504401207}
+--- !u!114 &1855776719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1855776713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 1
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!1 &2107642220
 GameObject:
   m_ObjectHideFlags: 0

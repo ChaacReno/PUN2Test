@@ -28,17 +28,6 @@ public class Net_RoomPlayerListHandler : MonoBehaviourPunCallbacks
         for (int i = 0; i < countToInstantiate; i++)
         {
             var icon = PhotonNetwork.Instantiate(Icon.name, Vector3.zero, Quaternion.identity);
-            photonView.RPC("ParentIcon", RpcTarget.AllBuffered, icon.GetPhotonView().ViewID);
-        }
-    }
-
-    [PunRPC]
-    private void ParentIcon(int viewID)
-    {
-        PhotonView targetIconView = PhotonView.Find(viewID);
-        if (targetIconView)
-        {
-            GameObject icon = targetIconView.gameObject;
             icon.transform.SetParent(IconLocation);
             icon.transform.localPosition = Vector3.zero;
         }
