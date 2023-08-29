@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c555904b-fec4-4c2e-baba-2b1dd7a7d89d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PUN2Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PUN2Test/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Launcher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Launcher.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/DefaultLobby.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/DefaultLobby.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +18,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Launcher.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/PhotonExtension.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PlayerSpawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SceneLoader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LobbyItem.cs" root0="FORCE_HIGHLIGHTING" />
@@ -99,7 +100,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693325425581</updated>
-      <workItem from="1693325430049" duration="11622000" />
+      <workItem from="1693325430049" duration="13982000" />
     </task>
     <servers />
   </component>
