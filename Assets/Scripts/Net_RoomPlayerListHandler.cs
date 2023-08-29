@@ -29,7 +29,7 @@ public class Net_RoomPlayerListHandler : MonoBehaviourPunCallbacks
         for (int i = 0; i < countToInstantiate; i++)
         {
             var icon = PhotonNetwork.Instantiate(Icon.name, Vector3.zero, Quaternion.identity);
-            icon.transform.parent = IconLocation;
+            icon.transform.SetParent(IconLocation);
             icon.transform.localPosition = Vector3.zero;
         }
     }
