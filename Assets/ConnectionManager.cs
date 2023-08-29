@@ -6,21 +6,36 @@ using UnityEngine;
 public class ConnectionManager : MonoBehaviourPunCallbacks
 {
     public GameObject prefab;
-    [Button("Connect")]
-    public void ConnectToLobby()
+
+    private void Start()
+    {
+        ConnectToAppServer();
+    }
+    
+    public void ConnectToAppServer()
     {
         PhotonNetwork.ConnectUsingSettings();
     }
-    
-    public override void OnConnectedToMaster()
+
+    [Button("CreateOrJoin")]
+    public void CreateOrJoin()
     {
-        Debug.Log("OnConnectedToMaster() was called by PUN.");
         var roomOptions = new RoomOptions
         {
-            IsVisible = false,
             MaxPlayers = 4
         };
         PhotonNetwork.JoinOrCreateRoom("Marc", roomOptions, TypedLobby.Default);
+    }
+
+    public override void OnConnectedToMaster()
+    {
+        Debug.Log("OnConnectedToMaster() was called by PUN.");
+    }
+
+    public override void OnJoinedLobby()
+    {
+        base.OnJoinedLobby();
+        Debug.LogError("JOINED LOBBY");
     }
 
     public override void OnJoinedRoom()

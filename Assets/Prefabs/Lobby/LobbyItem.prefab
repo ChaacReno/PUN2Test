@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6111217793646387370}
   - component: {fileID: 5019592838087557614}
   - component: {fileID: 4362096615205099599}
+  - component: {fileID: 1842849548054670656}
   m_Layer: 5
   m_Name: LobbyItem
   m_TagString: Untagged
@@ -123,6 +124,20 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1842849548054670656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 201437282901964728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5f18b3d37449eb469cc8d670cc1ddb8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RoomName: {fileID: 3494877954390382045}
+  PlayerQuantity: {fileID: 8093641466647847266}
 --- !u!1 &1474247840362354325
 GameObject:
   m_ObjectHideFlags: 0
