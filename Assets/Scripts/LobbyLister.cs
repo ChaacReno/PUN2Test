@@ -6,8 +6,8 @@ using System.Collections.Generic;
 public class LobbyLister : MonoBehaviourPunCallbacks
 {
     [SerializeField] private GameObject lobbyListContainer;
+    [SerializeField] private GameObject playerListContainer;
     [SerializeField] private GameObject lobbyItem;
-    [SerializeField] private GameObject UI;
     public List<LobbyInfo> availableLobbies = new List<LobbyInfo>();
 
     public class LobbyInfo
@@ -50,7 +50,8 @@ public class LobbyLister : MonoBehaviourPunCallbacks
     public override void OnJoinedRoom()
     {
         base.OnJoinedRoom();
-        UI.SetActive(false);
+        lobbyListContainer.SetActive(false);
+        playerListContainer.SetActive(true);
     }
 
     public void PrintLobbies()
