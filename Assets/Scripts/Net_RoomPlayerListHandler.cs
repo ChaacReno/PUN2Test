@@ -1,7 +1,7 @@
 using Photon.Pun;
 using UnityEngine;
 
-public class RoomPlayerListHandler : MonoBehaviourPunCallbacks
+public class Net_RoomPlayerListHandler : MonoBehaviourPunCallbacks
 {
     [SerializeField] private GameObject Icon;
     [SerializeField] private Transform IconLocation;
