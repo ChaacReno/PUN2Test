@@ -16,15 +16,6 @@ public class LobbyItem : MonoBehaviourPunCallbacks
 
     public void ConnectToRoom()
     {
-        if (PhotonNetwork.InRoom)
-        {
-            PhotonNetwork.LeaveRoom();
-        }
-    }
-
-    public override void OnLeftRoom()
-    {
-        base.OnLeftRoom();
         PhotonNetwork.JoinRoom(nameLabel.text);
     }
 }
