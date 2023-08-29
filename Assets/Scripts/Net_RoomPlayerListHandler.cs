@@ -24,11 +24,22 @@ public class Net_RoomPlayerListHandler : MonoBehaviourPunCallbacks
 
         var countToInstantiate = playerCount - iconCount;
 
+        if (countToInstantiate == 0)
+        {
+            InstantiateIcon();
+            return;
+        }
+
         for (int i = 1; i < countToInstantiate; i++)
         {
-            var icon = PhotonNetwork.Instantiate(Icon.name, Vector3.zero, Quaternion.identity);
-            photonView.RPC("ParentIcon", RpcTarget.AllBuffered, icon.GetPhotonView());
+            InstantiateIcon();
         }
+    }
+
+    private void InstantiateIcon()
+    {
+        var icon = PhotonNetwork.Instantiate(Icon.name, Vector3.zero, Quaternion.identity);
+        photonView.RPC("ParentIcon", RpcTarget.AllBuffered, icon.GetPhotonView());
     }
 
     [PunRPC]
