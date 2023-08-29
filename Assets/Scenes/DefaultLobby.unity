@@ -2721,7 +2721,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Icon: {fileID: 5492178424074895339, guid: d2d958a0563d40a4987bc28f6d1167c4, type: 3}
-  IconLocation: {fileID: 0}
+  IconLocation: {fileID: 1344619105}
 --- !u!1 &2107642220
 GameObject:
   m_ObjectHideFlags: 0
