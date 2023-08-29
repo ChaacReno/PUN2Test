@@ -7,6 +7,7 @@ public class LobbyLister : MonoBehaviourPunCallbacks
 {
     [SerializeField] private GameObject lobbyListContainer;
     [SerializeField] private GameObject lobbyItem;
+    [SerializeField] private GameObject UI;
     public List<LobbyInfo> availableLobbies = new List<LobbyInfo>();
 
     public class LobbyInfo
@@ -44,6 +45,12 @@ public class LobbyLister : MonoBehaviourPunCallbacks
     {
         PhotonNetwork.JoinLobby();
         PrintLobbies();
+    }
+
+    public override void OnJoinedRoom()
+    {
+        base.OnJoinedRoom();
+        UI.SetActive(false);
     }
 
     public void PrintLobbies()

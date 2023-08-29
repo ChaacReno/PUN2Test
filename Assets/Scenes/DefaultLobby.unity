@@ -1576,6 +1576,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lobbyListContainer: {fileID: 1502622914}
   lobbyItem: {fileID: 201437282901964728, guid: d11e2f57e27842a46ba6318642a2372f, type: 3}
+  UI: {fileID: 1502622914}
 --- !u!4 &1064246585
 Transform:
   m_ObjectHideFlags: 0
