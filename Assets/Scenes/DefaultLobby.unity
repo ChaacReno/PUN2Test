@@ -2095,7 +2095,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lobbyListContainer: {fileID: 1502622914}
-  playerListContainer: {fileID: 1733470990}
+  playerListContainer: {fileID: 504401206}
   lobbyItem: {fileID: 201437282901964728, guid: d11e2f57e27842a46ba6318642a2372f, type: 3}
 --- !u!4 &1064246585
 Transform:
@@ -2745,7 +2745,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Icon: {fileID: 5492178424074895339, guid: d2d958a0563d40a4987bc28f6d1167c4, type: 3}
-  IconLocation: {fileID: 1344619105}
+  IconLocation: {fileID: 504401207}
 --- !u!1 &2107642220
 GameObject:
   m_ObjectHideFlags: 0
