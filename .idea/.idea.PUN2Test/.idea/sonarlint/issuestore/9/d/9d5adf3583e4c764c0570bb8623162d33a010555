@@ -1,0 +1,100 @@
+
+rcsharpsquid:S1118û	"OAdd a 'protected' constructor or the 'static' keyword to the class declaration.(ŞÚ×Üıÿÿÿÿ
+mcsharpsquid:S1118
+"OAdd a 'protected' constructor or the 'static' keyword to the class declaration.(ŸÙŸ­
+rcsharpsquid:S1118º
+"OAdd a 'protected' constructor or the 'static' keyword to the class declaration.(‚Óªùÿÿÿÿ
+rcsharpsquid:S1118Ù"OAdd a 'protected' constructor or the 'static' keyword to the class declaration.(ó¡ùÿÿÿÿ
+rcsharpsquid:S1118Í"OAdd a 'protected' constructor or the 'static' keyword to the class declaration.(—ÌœŞşÿÿÿÿ
+rcsharpsquid:S1118ğ
+"OAdd a 'protected' constructor or the 'static' keyword to the class declaration.(½¡†¢üÿÿÿÿ
+ucsharpsquid:S3776¶"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(ŒË¥àøÿÿÿÿ
+ucsharpsquid:S3776Ş"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(ªÿ”¤şÿÿÿÿ
+ucsharpsquid:S3776©"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(©ÿæ²ıÿÿÿÿ
+pcsharpsquid:S3776•"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(¡ª©®
+ƒcsharpsquid:S2342„"`Rename this enumeration to match the regular expression: '^([A-Z]{1,3}[a-z0-9]+)*([A-Z]{2})?s$'.(ŸÑ²‡şÿÿÿÿ
+bcsharpsquid:S1104ƒ"DMake this field 'private' and encapsulate it in a 'public' property.(ÚÇôä
+gcsharpsquid:S1104…"DMake this field 'private' and encapsulate it in a 'public' property.(¥Š®·úÿÿÿÿ
+gcsharpsquid:S1104‡"DMake this field 'private' and encapsulate it in a 'public' property.(§µìøÿÿÿÿ
+gcsharpsquid:S1104¨"DMake this field 'private' and encapsulate it in a 'public' property.(°Ç»öüÿÿÿÿ
+gcsharpsquid:S1104ª"DMake this field 'private' and encapsulate it in a 'public' property.(ìÚÈšúÿÿÿÿ
+gcsharpsquid:S1104¬"DMake this field 'private' and encapsulate it in a 'public' property.(ÅüÄØşÿÿÿÿ
+gcsharpsquid:S1104®"DMake this field 'private' and encapsulate it in a 'public' property.(ò½–ìúÿÿÿÿ
+gcsharpsquid:S1104°"DMake this field 'private' and encapsulate it in a 'public' property.(ï¼ßúÿÿÿÿ
+gcsharpsquid:S1104³"DMake this field 'private' and encapsulate it in a 'public' property.(¹À’‡üÿÿÿÿ
+gcsharpsquid:S1104º"DMake this field 'private' and encapsulate it in a 'public' property.(ØèÊ“ùÿÿÿÿ
+gcsharpsquid:S1104¼"DMake this field 'private' and encapsulate it in a 'public' property.(äê‹‘ûÿÿÿÿ
+acsharpsquid:S1104¾"DMake this field 'private' and encapsulate it in a 'public' property.(Íµ‚m
+bcsharpsquid:S1104À"DMake this field 'private' and encapsulate it in a 'public' property.(¦¡¥Ü
+gcsharpsquid:S1104Æ"DMake this field 'private' and encapsulate it in a 'public' property.(¹À’‡üÿÿÿÿ
+gcsharpsquid:S1104…"DMake this field 'private' and encapsulate it in a 'public' property.(ºË¹Ğüÿÿÿÿ
+bcsharpsquid:S1104ˆ"DMake this field 'private' and encapsulate it in a 'public' property.(à•³
+gcsharpsquid:S1104È"DMake this field 'private' and encapsulate it in a 'public' property.(ÇêßÔÿÿÿÿÿ
+bcsharpsquid:S1104Ğ"DMake this field 'private' and encapsulate it in a 'public' property.(í¥â 
+gcsharpsquid:S1104­"DMake this field 'private' and encapsulate it in a 'public' property.(ÂÍ»şùÿÿÿÿ
+gcsharpsquid:S1104°"DMake this field 'private' and encapsulate it in a 'public' property.(ï‡¾òÿÿÿÿÿ
+bcsharpsquid:S1104³"DMake this field 'private' and encapsulate it in a 'public' property.(ƒš¶ö
+gcsharpsquid:S1104Ä"DMake this field 'private' and encapsulate it in a 'public' property.(Ùµ§ùÿÿÿÿ
+bcsharpsquid:S1104Î"DMake this field 'private' and encapsulate it in a 'public' property.(™ÂÚÊ
+bcsharpsquid:S1104Ö"DMake this field 'private' and encapsulate it in a 'public' property.(âé¬ö
+gcsharpsquid:S1104—"DMake this field 'private' and encapsulate it in a 'public' property.(ú½Ö•şÿÿÿÿ
+bcsharpsquid:S1104š"DMake this field 'private' and encapsulate it in a 'public' property.(ö¸úÀ
+gcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(ªÁ®İûÿÿÿÿ
+bcsharpsquid:S1104 "DMake this field 'private' and encapsulate it in a 'public' property.(É‡å²
+gcsharpsquid:S1104¤"DMake this field 'private' and encapsulate it in a 'public' property.(„±š¹ÿÿÿÿÿ
+bcsharpsquid:S1104¨"DMake this field 'private' and encapsulate it in a 'public' property.(Àö‡œ
+Mcsharpsquid:S1066ì"/Merge this if statement with the enclosing one.(Ñ«Ò™
+Xcsharpsquid:S1133Ï
+"5Do not forget to remove this deprecated code someday.(µÓÛúÿÿÿÿ
+Xcsharpsquid:S1133ÿ
+"5Do not forget to remove this deprecated code someday.(Ëì…úøÿÿÿÿ
+Xcsharpsquid:S1133Ş"5Do not forget to remove this deprecated code someday.(ÆçÑøÿÿÿÿ
+Scsharpsquid:S1133Û"5Do not forget to remove this deprecated code someday.(…§â
+Xcsharpsquid:S1133­"5Do not forget to remove this deprecated code someday.(µÓÛúÿÿÿÿ
+Xcsharpsquid:S1133±"5Do not forget to remove this deprecated code someday.(µÓÛúÿÿÿÿ
+Scsharpsquid:S1133ß"5Do not forget to remove this deprecated code someday.(î¢‰
+1csharpsquid:S1123ß"Add an explanation.(î¢‰
+Scsharpsquid:S1133Ü
+"5Do not forget to remove this deprecated code someday.(‘¬±’
+Xcsharpsquid:S1133µ"5Do not forget to remove this deprecated code someday.(µÓÛúÿÿÿÿ
+Scsharpsquid:S1133Ü"5Do not forget to remove this deprecated code someday.(î¢‰
+1csharpsquid:S1123Ü"Add an explanation.(î¢‰
+Xcsharpsquid:S1133ª"5Do not forget to remove this deprecated code someday.(á¬ßùÿÿÿÿ
+Xcsharpsquid:S1133¸"5Do not forget to remove this deprecated code someday.(á¬ßùÿÿÿÿ
+Scsharpsquid:S1133à"5Do not forget to remove this deprecated code someday.(î¢‰
+1csharpsquid:S1123à"Add an explanation.(î¢‰
+Scsharpsquid:S1133ä"5Do not forget to remove this deprecated code someday.(î¢‰
+1csharpsquid:S1123ä"Add an explanation.(î¢‰
+Xcsharpsquid:S1133ı"5Do not forget to remove this deprecated code someday.(—æ˜½øÿÿÿÿ
+Wcsharpsquid:S1133,"5Do not forget to remove this deprecated code someday.(¿«ã±øÿÿÿÿ
+Scsharpsquid:S1133£"5Do not forget to remove this deprecated code someday.(ßé¹Ğ
+bcsharpsquid:S2292à"DMake this an auto-implemented property and remove its backing field.(•‰âé
+gcsharpsquid:S2292 "DMake this an auto-implemented property and remove its backing field.(ç„²”úÿÿÿÿ
+gcsharpsquid:S2292©"DMake this an auto-implemented property and remove its backing field.(ŠÙıÙøÿÿÿÿ
+gcsharpsquid:S2292»"DMake this an auto-implemented property and remove its backing field.(«à¹îøÿÿÿÿ
+gcsharpsquid:S2292„"DMake this an auto-implemented property and remove its backing field.(Åí•Ëÿÿÿÿÿ
+Ecsharpsquid:S1905‡"'Remove this unnecessary cast to 'byte'.(ÁÕÙÕ
+Jcsharpsquid:S1905"'Remove this unnecessary cast to 'byte'.(ïºÇÍıÿÿÿÿ
+Dcsharpsquid:S1905"'Remove this unnecessary cast to 'byte'.(Õéµ
+Jcsharpsquid:S1905Ä"'Remove this unnecessary cast to 'byte'.(ÓÀãÚùÿÿÿÿ
+Jcsharpsquid:S1905Å"'Remove this unnecessary cast to 'byte'.(»š²Îûÿÿÿÿ
+Dcsharpsquid:S1905Æ"'Remove this unnecessary cast to 'byte'.(ŞûÏ
+Jcsharpsquid:S1905"'Remove this unnecessary cast to 'byte'.(ÓÌåûÿÿÿÿ
+Ecsharpsquid:S1905…"'Remove this unnecessary cast to 'byte'.(ãÏĞ©
+Jcsharpsquid:S1905¸"'Remove this unnecessary cast to 'byte'.(Ã¿Å»ûÿÿÿÿ
+Jcsharpsquid:S1905À"'Remove this unnecessary cast to 'byte'.(‹»ß®øÿÿÿÿ
+Dcsharpsquid:S1905Å"'Remove this unnecessary cast to 'byte'.(õÃ”
+Fcsharpsquid:S1905È")Remove this unnecessary cast to 'object'.(—Õœc
+Ycsharpsquid:S1939ò";'int' should not be explicitly used as the underlying type.(ı¾§Ñ
+>csharpsquid:S2437" Remove this silly bit operation.(®Ë£Ù
+Ccsharpsquid:S2437Ö" Remove this silly bit operation.(¸Ú·Ûúÿÿÿÿ
+<csharpsquid:S125Á"Remove this commented out code.(£õ¥»
+;csharpsquid:S125ü"Remove this commented out code.(õª<
+Acsharpsquid:S125±"Remove this commented out code.(åëË¿ùÿÿÿÿ
+;csharpsquid:S125ò"Remove this commented out code.(Ëğ¬l
+Acsharpsquid:S125õ"Remove this commented out code.(Êâìûÿÿÿÿ
+Acsharpsquid:S125¦"Remove this commented out code.(§¬Öõúÿÿÿÿ
+<csharpsquid:S125ü"Remove this commented out code.(ºÎéô
+<csharpsquid:S125«"Remove this commented out code.(äã–”
+Rcsharpsquid:S1135»"4Complete the task associated to this 'TODO' comment.(úúöé
+Wcsharpsquid:S1135¼"4Complete the task associated to this 'TODO' comment.(ºãëşÿÿÿÿ
